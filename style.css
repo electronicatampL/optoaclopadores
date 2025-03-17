@@ -1,0 +1,90 @@
+/* General style reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Main content wrapper */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title and heading styles */
+h1 {
+    font-size: 1.8em;  /* Reduzco el tamaño del título */
+    margin-bottom: 15px;
+    color: #555;
+}
+
+h2 {
+    font-size: 1.4em;  /* Reduzco el tamaño de los subtítulos */
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Paragraph text styles */
+p {
+    font-size: 1em;  /* Reduzco el tamaño del texto */
+    margin-bottom: 15px;
+    color: #666;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image styles */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Adjust image sizes */
+img {
+    max-width: 90%;  /* Reduce the maximum width to avoid being too large */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 10px auto;
+}
+
+/* Style for the first image */
+.image-container img:first-child {
+    max-width: 80%;  /* Specifically limit the size of the first image */
+}
+
+/* Style for the last image */
+.image-container img:last-child {
+    max-width: 80%;  /* Specifically limit the size of the last image */
+}
+
+/* For the second last image */
+.image-container img:nth-last-child(2) {
+    max-width: 80%;  /* Limit the size of the second last image */
+}
+
+/* Styling for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
